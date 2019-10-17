@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cpu_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/int_test_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CPU整点计算测试" />
+
+            <TextView
+                android:id="@+id/int_test_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CPU整点计算耗时：" />
+
+            <Button
+                android:id="@+id/float_test_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CPU浮点计算测试" />
+
+            <TextView
+                android:id="@+id/float_test_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CPU浮点计算耗时：" />
+
+            <Button
+                android:id="@+id/rom_test_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROM测试" />
+
+            <TextView
+                android:id="@+id/rom_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROM总大小：" />
+
+            <TextView
+                android:id="@+id/rom_write_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROM写入速度：" />
+
+            <TextView
+                android:id="@+id/rom_read_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROM读取速度：" />
+
+            <Button
+                android:id="@+id/ram_test_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAM测试" />
+
+            <TextView
+                android:id="@+id/ram_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAM总大小：" />
+
+            <TextView
+                android:id="@+id/ram_test_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAM运行结果：" />
+
+            <Button
+                android:id="@+id/net_speed_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="网络测速" />
+
+            <Button
+                android:id="@+id/gpu_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPU测试" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
